@@ -11,8 +11,4 @@ For inputString = "a", the output should be
 checkPalindrome(inputString) = true.
 '''
 def checkPalindrome(inputString):
-    if inputString[::-1] == inputString:
-        return True
-    else:
-        return False
-    
+    return inputString[::-1] == inputString
