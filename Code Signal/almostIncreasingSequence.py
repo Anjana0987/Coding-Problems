@@ -36,5 +36,5 @@ def almostIncreasingSequence(sequence):
         if sequence[i] >= sequence [i+1]:
             test_seq1 = sequence[:i] + sequence[i+1:]
             test_seq2 = sequence[:i+1] + sequence[i+2:]
-            return increase(test_seq1) == True or increase(test_seq2) == True
+            return increase(test_seq1) or increase(test_seq2)
               
